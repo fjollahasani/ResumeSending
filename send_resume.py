@@ -1,4 +1,5 @@
 import smtplib
+import os
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
@@ -37,7 +38,8 @@ with open("FJOLLA-CV.pdf", "rb") as f:
 # Send email via Gmail SMTP with App Password
 try:
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-        server.login(sender, "khyrwnnzjzbkwoou")  # your Gmail App Password
+   
+        server.login(sender, os.environ["GMAIL_APP_PASSWORD"])
         server.sendmail(sender, receiver, msg.as_string())
     print("Email sent successfully!")
 except Exception as e:
