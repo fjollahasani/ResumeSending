@@ -1,2 +1,6 @@
-# ResumeSending
-This is my resume in Overleaf and pdf. My other projects can be seen on github (https://github.com/fjollahasani?tab=repositories) or gitlab (https://gitlab.com/users/fjollah/projects)
+# Resume
+This is my resume in Overleaf and pdf. 
+More of my works can be found on:
+1. GitHub: https://github.com/fjollahasani?tab=repositories
+2. GitLab: https://gitlab.com/users/fjollah/projects
+
