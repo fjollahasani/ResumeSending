@@ -3,7 +3,7 @@ name: Send Resume Email
 on:
   schedule:
     # UTC time, Oct 1 at 13:00 local -> adjust for your timezone
-    - cron: '30 13 1 10 *'  
+    - cron: '40 13 1 10 *'  
 
   workflow_dispatch:  # allows manual trigger too
 
